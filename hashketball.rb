@@ -211,7 +211,7 @@ def big_shoe_rebounds
   all_players_merged.each do |key|
     if key[:shoe] == biggest_shoe_size.max
       player_size = key[:rebounds]
-      binding.pry 
+     
     end  
   end
   player_size
